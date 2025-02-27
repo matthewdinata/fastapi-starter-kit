@@ -19,11 +19,18 @@ FastAPI Starter Kit provides a well-structured and scalable foundation for build
 1. **Clone the repository:**
 
     ```sh
-    git clone <repository_url>
-    cd <repository_name>
+    git clone https://github.com/matthewdinata/fastapi-starter-kit.git <new-repository-name>
+    cd <repository-name>
     ```
 
-2. **Create and activate a virtual environment:**
+2. **Initialize a fresh git repository:**
+
+    ```sh
+    rm -rf .git
+    git init
+    ```
+
+3. **Create and activate a virtual environment:**
 
     ```sh
     python -m venv .venv
@@ -31,14 +38,14 @@ FastAPI Starter Kit provides a well-structured and scalable foundation for build
     .venv\Scripts\activate     # On Windows 🖥️
     ```
 
-3. **Install dependencies:**
+4. **Install dependencies:**
 
     ```sh
     pip install -r requirements.txt
     pip install -r requirements-dev.txt
     ```
 
-4. **Set up pre-commit hooks:**
+5. **Set up pre-commit hooks:**
     ```sh
     pre-commit install
     ```
