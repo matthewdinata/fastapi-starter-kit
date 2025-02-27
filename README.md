@@ -128,3 +128,9 @@ Your `.pre-commit-config.yaml` ensures that the project maintains high code qual
 -   **Linting** (flake8) 🕵️‍♂️
 -   **Type checking** (mypy) 🔢
 -   **Basic file checks** (trailing whitespace, YAML validation, etc.) ✅
+
+## 👨‍💻 Prepared By
+
+This FastAPI Starter Kit was prepared by Matthew Dinata.
+
+Feel free to reach out for questions!
